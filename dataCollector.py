@@ -6,14 +6,16 @@
 ##  GitHub: https://github.com/MinionAttack  ##
 ###############################################
 
-from mm_components import MBs
-from lxml.html import fromstring
+import csv
+from decimal import Decimal
 from pathlib import Path
 from time import strftime, localtime
-from progress.bar import FillingCirclesBar
-from decimal import Decimal
+
 import requests
-import csv
+from lxml.html import fromstring
+from progress.bar import FillingCirclesBar
+
+from mm_components import MBs
 
 __COMPONENTS_LIST = [MBs]
 

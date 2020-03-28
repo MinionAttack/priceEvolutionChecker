@@ -42,8 +42,3 @@ SYNOLOGY = 'synology'
 
 # TRANSCEND
 TRANSCEND = 'transcend-marca'
-
-
-
-
-
